@@ -57,13 +57,13 @@ var Loading = {
         game.load.image('menuBg', config.IMG_PATH + 'menuBg.png');
 
         ////////////////////////////////////////
-        // TODO: 8. Load box image
+        // TODO: 9. Load box image
 
         ////////////////////////////
         // TODO: 1. Load spritesheet
 
         ////////////////////////////////////////
-        // TODO: 14. Load sound
+        // TODO: 15. Load sound
 
         // start Phaser loading routine
         game.load.start();
@@ -106,47 +106,47 @@ var Gameplay = {
         // TODO: 2. Add spritesheet to the game
 
         ////////////////////////////////////////
-        // TODO: 10. Enable collision for player sprite
+        // TODO: 4. Enable collision for player sprite
 
         ////////////////////////////////////////
-        // TODO: 13. Set size of link body, a.k.a. collision area
+        // TODO: 14. Set size of link body, a.k.a. collision area
 
         ////////////////////////////////////////
-        // TODO: 9. Add box sprite to the game
+        // TODO: 10. Add box sprite to the game
 
         ////////////////////////////////////////
-        // TODO: 10. Enable collision for box sprite
+        // TODO: 11. Enable collision for box sprite
 
         ////////////////////////////////////////
-        // TODO: 12. Make box immovable
+        // TODO: 13. Make box immovable
 
         ////////////////////////////////////////
-        // TODO: 6. Add character animations
+        // TODO: 7. Add character animations
 
         ////////////////////////////////////////
         // TODO: 3. Create keys for arrows
 
         ////////////////////////////////////////
-        // TODO: 15. Add sound
+        // TODO: 16. Add sound
 
     },
     update: function () {
         //////////////////////////////////////////////////
-        // TODO: 5. Set zero velocity for each update call
+        // TODO: 6. Set zero velocity for each update call
 
         ////////////////////////////////////////
-        // TODO: 4. React on arrows keys pressed
-        // TODO: 7. Play animation
+        // TODO: 5. React on arrows keys pressed
+        // TODO: 8. Play animation
 
         ////////////////////////////////////////
-        // TODO: 11. Perform collision check
-        // TODO: 17. Play 'open' sound after collision
+        // TODO: 12. Perform collision check
+        // TODO: 18. Play 'open' sound after collision
     },
     goToMainMenu: function () {
         game.state.start('Menu');
     },
     playSound: function () {
         ////////////////////////////////////////
-        // TODO: 16. Play sound
+        // TODO: 17. Play sound
     }
 };
